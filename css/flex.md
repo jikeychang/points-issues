@@ -1,4 +1,7 @@
 ## fllex 弹性布局
+
+> https://juejin.im/post/58e3a5a0a0bb9f0069fc16bb
+
 ### 基本概念
 ```css
 .container {
@@ -8,7 +11,7 @@
 
 定义一个flex容器,为内容创建了一个新的flex环境 注意：当设置 flex 布局之后，子元素的 `float、clear、vertical-align` 的属性将会失效
 
-![flex](https://github.com/jikeyChang/points-issues/blob/master/assets/flex.png)
+![flex.png](https://github.com/jikeyChang/points-issues/blob/master/assets/flex.png)
 
 ## 一，容器上的6个属性
 
@@ -93,8 +96,7 @@
 
 ## 二，容器上的6个属性
 
-|123|234|345|
-|:-|:-:|-:|
-|abc|bcd|cde|
-|abc|bcd|cde|
-|abc|bcd|cde|
+1.1 flex
+> 在主轴上如何伸缩
+
+子容器是有弹性的（flex 即弹性），它们会自动填充剩余空间，子容器的伸缩比例由 flex 属性确定
