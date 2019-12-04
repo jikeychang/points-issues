@@ -32,7 +32,7 @@
 
 ---
 
-1,2（★），`align-items`
+1.2（★），`align-items`
 
 > item在交叉轴（Y轴）上的对齐方式
 
