@@ -8,39 +8,12 @@
 
 定义一个flex容器,为内容创建了一个新的flex环境 注意：当设置 flex 布局之后，子元素的 `float、clear、vertical-align` 的属性将会失效
 
+![flex](https://github.com/jikeyChang/points-issues/blob/master/assets/flex.png)
+
 ## 一，容器上的6个属性
 
-1.1， `flex-direction` 
-
-> 决定主轴方向
-
-<details><summary>属性值</summary>
-<p>
-
-* row（默认值）：主轴为水平方向，起点在左端。
-* row-reverse：主轴为水平方向，起点在右端。
-* column：主轴为垂直方向，起点在上沿。
-* column-reverse：主轴为垂直方向，起点在下沿
-</p>
-</details>
-
----
-1.2，`flex-wrap`
-> 默认情况下 item都排在一条轴线上，`flex-wrap`定义一行排不下时如何换行
-
-<details><summary>属性值</summary>
-<p>
-
-* nowrap:（默认）不换行。
-* wrap: 第一行在上方。
-* wrap-reverse: 第一行在下方。
-</p>
-</details>
-
----
-
-1.3， `justify-content`
-> item在主轴上的对齐方式
+1.1（★）， `justify-content`
+> item在主轴（X轴）上的对齐方式
 
 <details><summary>属性值</summary>
 <p>
@@ -56,9 +29,9 @@
 
 ---
 
-1,4，`align-items`
+1,2（★），`align-items`
 
-> item在交叉轴上的对齐方式
+> item在交叉轴（Y轴）上的对齐方式
 
 <details><summary>属性值</summary>
 <p>
@@ -68,6 +41,35 @@
 * flex-end：交叉轴的终点对齐。
 * center：交叉轴的中点对齐。
 * baseline: 项目的第一行文字的基线对齐。
+</p>
+</details>
+
+---
+
+1.3， `flex-direction` 
+
+> 决定主轴方向
+
+<details><summary>属性值</summary>
+<p>
+
+* row（默认值）：主轴为水平方向，起点在左端。
+* row-reverse：主轴为水平方向，起点在右端。
+* column：主轴为垂直方向，起点在上沿。
+* column-reverse：主轴为垂直方向，起点在下沿
+</p>
+</details>
+
+---
+1.4，`flex-wrap`
+> 默认情况下 item都排在一条轴线上，`flex-wrap`定义一行排不下时如何换行
+
+<details><summary>属性值</summary>
+<p>
+
+* nowrap:（默认）不换行。
+* wrap: 第一行在上方。
+* wrap-reverse: 第一行在下方。
 </p>
 </details>
 
@@ -88,3 +90,11 @@
 * space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
 </p>
 </details>
+
+## 二，容器上的6个属性
+
+|123|234|345|
+|:-|:-:|-:|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|abc|bcd|cde|
