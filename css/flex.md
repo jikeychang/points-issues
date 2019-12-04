@@ -24,6 +24,7 @@
 </p>
 </details>
 
+---
 1.2，`flex-wrap`
 > 默认情况下 item都排在一条轴线上，`flex-wrap`定义一行排不下时如何换行
 
@@ -35,6 +36,8 @@
 * wrap-reverse: 第一行在下方。
 </p>
 </details>
+
+---
 
 1.3， `justify-content`
 > item在主轴上的对齐方式
@@ -51,6 +54,8 @@
 </p>
 </details>
 
+---
+
 1,4，`align-items`
 
 > item在交叉轴上的对齐方式
@@ -65,6 +70,8 @@
 * baseline: 项目的第一行文字的基线对齐。
 </p>
 </details>
+
+---
 
 1.5，`align-content`
 
