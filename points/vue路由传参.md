@@ -23,7 +23,7 @@ this.$route.params.id
 #### 方案二：匹配name来传参
 
 ```js
-// // 调用时打开新页面
+// // 调用时打开新页面 如果要使用params传参，则一定要使用name
 showDialog(obj) {
   // this.setRoleParamObj(obj) //vuex中赋值;
   this.$router.push({
